@@ -1,0 +1,14 @@
+# datasets and experiment outputs (downloaded / generated on demand)
+data/*
+!data/.gitkeep
+results/*
+!results/.gitkeep
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store

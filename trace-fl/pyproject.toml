@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tracefl"
+version = "1.0.0"
+description = "TRACE-FL: Byzantine-robust federated learning under non-IID data"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Gregory Arul Dalton"}]
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24", "scikit-learn>=1.2", "Pillow>=9.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "matplotlib>=3.6"]
+cnn = ["jax"]
+
+[tool.setuptools]
+packages = ["tracefl"]

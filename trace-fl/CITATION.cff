@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Temporal Reputation Aggregation with Collusion Detection and Trajectory Persistence for Robust Federated Learning against Byzantine Clients with Heterogeneous Data"
+authors:
+  - family-names: Dalton
+    given-names: Gregory Arul
+version: 1.0.0
+date-released: 2026-09-27
+license: MIT
+repository-code: "https://github.com/iitrky/trace-fl"
